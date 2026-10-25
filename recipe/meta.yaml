@@ -1,5 +1,5 @@
 {% set name = "gomi" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/babarot/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 5f1b135ef0531e85020bbcd840b3645bdc1c6811ddd3b187fadf722d8f1251c8
+  sha256: 514019cc7f87cb19f1a7c2dafd3fffaf29b3239d805f7ff8f92375124a15c1eb
 
 build:
   number: 0
